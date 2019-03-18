@@ -70,8 +70,3 @@ footer.page-footer {
 table.striped > tbody > tr:nth-child(odd) {
     background-color: #d7ccc8;
 }
-
-.tech{
-    padding-left: 19px;
-    padding-right: 19px;
-}
