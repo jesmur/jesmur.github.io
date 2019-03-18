@@ -1,44 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Jessica Murray | Portfolio</title>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> 
-    <link rel="stylesheet" href="css/style.css">    
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>Jessica Murray | Portfolio</title>
 
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+  <script> 
+        $(function(){
+          $("#nav").load("nav.html"); 
+          $("#footer").load("footer.html"); 
+        });
+    </script> 
 </head>
 <body>
-    <h1>Test</h1>
+    <div id="nav"></div>
 
-    <footer class="page-footer  green darken-3" id="footer">
+    <div id="index-banner" class="parallax-container">
+    <div class="section no-pad-bot">
         <div class="container">
-            <div class="row">
-                <div class="col l9 s12">
-                    <h5 class="white-text">Contact Me</h5>
-                    <p>Visit my profile on <a class="white-text" target="_blank" href="https://www.linkedin.com/in/jesmur/">LinkedIn</a>, 
-                        or connect with me via contact information listed on my <a class="white-text" target="_blank" href="resume.html">resume</a>.
-                    </p>
-                </div>
-                <div class="right-align col l3 s12">
-                    <h5 class="white-text">Connect</h5>
-                    <a class="white-text" target="_blank" href="https://www.linkedin.com/in/jesmur/"><i class="fab fa-linkedin-in"></i></a>
-                    <a class="white-text" target="_blank" href="https://github.com/jesmur"><i class="fab fa-github"></i></a>
-                </div>
-            </div>
+        <br><br>
+        <h1 id="portfolio-header" class="header center text-lighten-2">I'm Jess</h1>
+        <div class="row center">
+            <h5 class="header col s12 light">Welcome to my portfolio.</h5>
+            <br>
         </div>
-        <div class="footer-copyright green darken-4">
-            <div class="container">
-            </p>&copy; 2019 Jessica Murray</p>
-            </div>
+        <br><br>
         </div>
-    </footer>
+    </div>
+    <div class="parallax"><img src="img/cairns.jpg" alt="Stone cairns background img 1"></div>
+    </div>
 
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <script src="js/main.js"></script>
-</body>
+  <div class="container">
+    <div class="section">
+
+        <div class="row">
+            <br>
+            <div class="col s6">
+                <img id="me" src="img/me.jpg" alt="Avatar">
+            </div>
+            <div class="col s6 center">
+                <h3><i class="mdi-content-send brown-text"></i></h3>
+                <h4>About Me</h4>
+                <p class="left-align light">I am currently a student at the Nova Scotia Community College, studying Information Technology with a
+                    specialization in Programming.</p>
+            </div>
+        </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="img/reynisfjara.jpg" alt="Reynisfjara background img 2"></div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Contact Us</h4>
+          <p class="left-align light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque id nunc nec volutpat. Etiam pellentesque tristique arcu, non consequat magna fermentum ac. Cras ut ultricies eros. Maecenas eros justo, ullamcorper a sapien id, viverra ultrices eros. Morbi sem neque, posuere et pretium eget, bibendum sollicitudin lacus. Aliquam eleifend sollicitudin diam, eu mattis nisl maximus sed. Nulla imperdiet semper molestie. Morbi massa odio, condimentum sed ipsum ac, gravida ultrices erat. Nullam eget dignissim mauris, non tristique erat. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae;</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img src="img/valley.jpg" alt="Valley trail background img 3"></div>
+  </div>
+
+  <div id="footer"></div>
+ 
+  <!--  Scripts-->
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+
+  </body>
 </html>
