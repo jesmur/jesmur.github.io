@@ -74,8 +74,3 @@ table.striped > tbody > tr:nth-child(odd) {
 .fab{
     margin: 3px;
 }
-
-#pdf-frame{
-    height: 800px;
-    width: 100%;
-}
