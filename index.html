@@ -1,143 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <meta name="viewport" content="width=device-width, initial-scale=1"/>
-  <title>Jessica Murray | Portfolio</title>
+    <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <title>Jessica Murray | Portfolio</title>
 
-  <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-  <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
-  <script> 
-        $(function(){
-          $("#nav").load("nav.html"); 
-          $("#footer").load("footer.html"); 
-        });
-    </script> 
-</head>
-<body class="brown lighten-5">
-    <div id="nav"></div>
-
-    <div id="index-banner" class="parallax-container">
-    <div class="section no-pad-bot">
-        <div class="container">
-        <br><br>
-        <h1 id="portfolio-header" class="header center text-lighten-2">I'm Jess</h1>
-        <div class="row center">
-            <h5 class="header col s12 light">Welcome to my portfolio.</h5>
-            <br>
-        </div>
-        <br><br>
-        </div>
-    </div>
-    <div class="parallax"><img src="img/cairns.jpg" alt="Stone cairns background img 1"></div>
-    </div>
-
-
-  <div class="container">
-    <div class="section">
-
-        <div class="row">
-            <br>
-            <div class="col s12 m6 center">
-                <img id="me" class="responsive-img" src="img/me.jpg" alt="Enjoying coffee in London">
+    <!-- CSS  -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+    <script> 
+            $(function(){
+            $("#footer").load("footer.html"); 
+            });
+        </script> 
+    </head>
+    <body class="brown lighten-5">
+        <nav class="brown lighten-4" role="navigation">
+            <div class="nav-wrapper container">
+                <a id="logo-container" href="index.html" class="brand-logo">JM</a>
+                <ul class="right hide-on-med-and-down">
+                    <li><a href="/index.html">About Me</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
+                    <li><a href="javascript: document.body.scrollIntoView(false);">Contact Me</a></li>
+                </ul>
+        
+                <ul id="nav-mobile" class="sidenav">
+                    <li><a href="/index.html">About Me</a></li>
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/resume.html">Resume</a></li>
+                    <li><a href="javascript: document.body.scrollIntoView(false);">Contact Me</a></li>
+                </ul>
+                <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             </div>
-            <div class="col s12 m6 center">
-                <h3><i class="mdi-content-send brown-text"></i></h3>
-                <h4>About Me</h4>
-                <p class="left-align light">I am currently a student at the Nova Scotia Community College, studying Information Technology with a
-                    specialization in Programming.</p>
+        </nav>
+
+        <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+            <br><br>
+            <h1 id="portfolio-header" class="header center text-lighten-2">I'm Jess</h1>
+            <div class="row center">
+                <h5 class="header col s12 light">Welcome to my portfolio.</h5>
+                <br>
+            </div>
+            <br><br>
             </div>
         </div>
-
-    </div>
-  </div>
-
-
-  <div class="parallax-container valign-wrapper">
-    <div class="parallax"><img src="img/reynisfjara.jpg" alt="Reynisfjara background img 2"></div>
-  </div>
-
-  <div class="container">
-    <div class="section">
-
-      <div class="row">
-        <div class="col s12 center">
-          <h3><i class="mdi-content-send brown-text"></i></h3>
-          <h4>Technologies</h4>
+        <div class="parallax"><img src="img/cairns.jpg" alt="Stone cairns background img 1"></div>
         </div>
-      </div>
 
-        <div class="row">
-            <div class="col s12 m5 center">
-              <h5>Languages & Frameworks</h5>
-                <div class="row">
-                    <table class="striped centered tech">       
-                        <tbody>
-                            <tr>
-                                <td>Python</td>
-                                <td>Java</td>
-                                <td>C/C++</td>
-                                <td>C#</td>
-                            </tr>
-                            <tr>
-                                <td>JavaScript</td>
-                                <td>HTML5</td>
-                                <td>CSS3</td>
-                                <td>PHP</td>
-                            </tr>
-                            <tr>
-                                <td>SQL</td>
-                                <td>jQuery</td>
-                                <td>React.js</td>
-                                <td>Laravel</td>
-                            </tr>
-                        </tbody>
-                    </table>
+
+    <div class="container">
+        <div class="section">
+
+            <div class="row">
+                <br>
+                <div class="col s12 m6 center">
+                    <img id="me" class="responsive-img" src="img/me.jpg" alt="Enjoying coffee in London">
+                </div>
+                <div class="col s12 m6 center">
+                    <h3><i class="mdi-content-send brown-text"></i></h3>
+                    <h4>About Me</h4>
+                    <p class="left-align light">I am currently a student at the Nova Scotia Community College, studying Information Technology with a
+                        specialization in Programming.</p>
                 </div>
             </div>
-            <div class="col s12 m5 offset-m2 center">
-                <h5>Related</h5>
-                    <div class="row">
-                        <table class="striped centered">       
-                        <tbody>
-                            <tr>
-                                <td>AJAX</td>
-                                <td>REST APIs</td>
-                                <td>Microsoft SQL Server</td>
-                            </tr>
-                            <tr>
-                                <td>SQLite</td>
-                                <td>MySQL</td>
-                                <td>Microsoft Access</td>
-                            </tr>
-                            <tr>
-                                <td>Android</td>
-                                <td>Git</td>
-                                <td>Progressive Web Apps</td>
-                            </tr>
-                        </tbody>
-                        </table>
-                    </div>
+
+        </div>
+    </div>
+
+
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax"><img src="img/reynisfjara.jpg" alt="Reynisfjara background img 2"></div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+
+        <div class="row">
+            <div class="col s12 center">
+            <h3><i class="mdi-content-send brown-text"></i></h3>
+            <h4>Skillset</h4>
             </div>
         </div>
 
+            <div class="row">
+                <div class="col s12 m5 center">
+                <h5>Languages & Frameworks</h5>
+                    <div class="row">
+                        <table class="striped centered tech">       
+                            <tbody>
+                                <tr>
+                                    <td>Python</td>
+                                    <td>Java</td>
+                                    <td>C/C++</td>
+                                    <td>C#</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>HTML5</td>
+                                    <td>CSS3</td>
+                                    <td>PHP</td>
+                                </tr>
+                                <tr>
+                                    <td>SQL</td>
+                                    <td>jQuery</td>
+                                    <td>React.js</td>
+                                    <td>Laravel</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col s12 m5 offset-m2 center">
+                    <h5>Related Technologies</h5>
+                        <div class="row">
+                            <table class="striped centered">       
+                            <tbody>
+                                <tr>
+                                    <td>AJAX</td>
+                                    <td>REST APIs</td>
+                                    <td>Microsoft SQL Server</td>
+                                </tr>
+                                <tr>
+                                    <td>SQLite</td>
+                                    <td>MySQL</td>
+                                    <td>Microsoft Access</td>
+                                </tr>
+                                <tr>
+                                    <td>Android</td>
+                                    <td>Git</td>
+                                    <td>Progressive Web Apps</td>
+                                </tr>
+                            </tbody>
+                            </table>
+                        </div>
+                </div>
+            </div>
+
+        </div>
     </div>
-  </div>
 
 
-  <div class="parallax-container valign-wrapper">
-    <div class="parallax"><img src="img/valley.jpg" alt="Valley trail background img 3"></div>
-  </div>
+    <div class="parallax-container valign-wrapper">
+        <div class="parallax"><img src="img/valley.jpg" alt="Valley trail background img 3"></div>
+    </div>
 
-  <div id="footer"></div>
- 
-  <!--  Scripts-->
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+    <div id="footer"></div>
+    
+    <!--  Scripts-->
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
 
   </body>
 </html>

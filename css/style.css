@@ -70,3 +70,7 @@ footer.page-footer {
 table.striped > tbody > tr:nth-child(odd) {
     background-color: #d7ccc8;
 }
+
+.fab{
+    margin: 3px;
+}
