@@ -2983,8 +2983,7 @@ table.striped tr {
 }
 
 table.striped > tbody > tr:nth-child(odd) {
-  /* background-color: rgba(242, 242, 242, 0.5); */
-  background-color: #d7ccc8;
+  background-color: rgba(242, 242, 242, 0.5);
 }
 
 table.striped > tbody > tr > td {

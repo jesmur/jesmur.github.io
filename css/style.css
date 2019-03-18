@@ -64,6 +64,6 @@ footer.page-footer {
     border-radius: 50%;
 }
 
-.tech{
-    padding-right: 50px;
-}
+table.striped > tbody > tr:nth-child(odd) {
+    background-color: #d7ccc8;
+  }
