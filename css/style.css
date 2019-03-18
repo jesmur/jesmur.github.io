@@ -37,6 +37,9 @@ p {
   #index-banner .section {
     top: 10%;
   }
+  #spacer{
+      display: hidden;
+  }
 }
 
 @media only screen and (max-width : 600px) {
@@ -66,4 +69,9 @@ footer.page-footer {
 
 table.striped > tbody > tr:nth-child(odd) {
     background-color: #d7ccc8;
-  }
+}
+
+.tech{
+    padding-left: 19px;
+    padding-right: 19px;
+}
