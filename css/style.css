@@ -19,6 +19,10 @@ p {
   color: #26a69a;
 }
 
+#nav-mobile{
+  background-image: url("../img/ori.png");
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
