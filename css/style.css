@@ -24,6 +24,10 @@ p {
   opacity: 0.9;
 }
 
+.carousel-img{
+  display: block;
+}
+
 .parallax-container {
   min-height: 380px;
   line-height: 0;
