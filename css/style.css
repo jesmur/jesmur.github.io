@@ -20,7 +20,8 @@ p {
 }
 
 #nav-mobile{
-  background-image: url("../img/ori.png");
+  background-image: url("../img/ori_blur.png");
+  opacity: 0.9;
 }
 
 .parallax-container {
