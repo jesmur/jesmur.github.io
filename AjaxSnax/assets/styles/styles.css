@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand");
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.container {
+  margin-bottom: 80px;
+}
+
+nav {
+  background-color: #b0202c;
+}
+
+nav .navbar-toggler {
+  border-color: #b36321 !important;
+}
+
+nav .nav-link {
+  color: #fff !important;
+}
+
+.btn {
+  border-radius: 0;
+  height: 38px;
+  background-color: #b36321;
+}
+
+.btn:hover {
+  background-color: #d97b2e;
+}
+
+@media screen and (max-width: 576px) {
+  #recipeSearch {
+    margin-right: 8px;
+    width: 200px;
+  }
+}
+
+.recipe img:hover {
+  opacity: 0.7;
+}
+
+i {
+  color: #fff !important;
+}
+
+.form-control, .dropdown-menu {
+  border-radius: 0;
+}
+
+#searchLabel {
+  margin-left: 10px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+#categoriesDisplay .row p {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#recipeDisplay img {
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #b0202c;
+  height: 50px;
+}
+
+footer .footer-stripe {
+  background-color: #9d571d;
+  height: 1em;
+}
+
+footer .footer-content p {
+  margin-top: 3px;
+  text-align: center;
+  color: #fff;
+}
+
+.loader {
+  border: 14px solid #e6e6e6;
+  border-top: 14px solid #b36321;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  -webkit-animation: spin 1s linear infinite;
+          animation: spin 1s linear infinite;
+  margin-top: 50px;
+  margin-top: 20px;
+}
+
+@-webkit-keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+.slick-arrow:before {
+  color: #9d571d;
+}
+
+h4 {
+  margin-top: 40px;
+}
+
+.carousel {
+  margin-top: 9%;
+}
+
+.carousel img:hover {
+  opacity: 0.7;
+}
+/*# sourceMappingURL=styles.css.map */
